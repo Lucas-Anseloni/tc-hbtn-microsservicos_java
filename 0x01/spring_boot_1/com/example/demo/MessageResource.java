@@ -1,6 +1,6 @@
-package com.example.demo;
+package spring_boot_1.com.example.demo;
 
-import org.jetbrains.annotations.NotNull;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,7 +16,7 @@ public class MessageResource {
     }
 
     @GetMapping("/login")
-    public String login(@RequestParam @NotNull String user, @RequestParam String password) {
+    public String login(@RequestParam String user, @RequestParam String password) {
         if (user.equals("") || password.equals("")){
             return "USUÁRIO E SENHA NÃO INFORMADOS";
         }if (user.length() > 15 || password.length() > 15){
