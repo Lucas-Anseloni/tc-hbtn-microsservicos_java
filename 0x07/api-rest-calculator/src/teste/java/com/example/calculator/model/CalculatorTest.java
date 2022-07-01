@@ -1,5 +1,6 @@
 package java.com.example.calculator.model;
 
+import com.example.calculator.model.Calculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

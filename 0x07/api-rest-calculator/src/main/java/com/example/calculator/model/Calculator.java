@@ -1,4 +1,4 @@
-package java.com.example.calculator.model;
+package com.example.calculator.model;
 
 import java.time.LocalDate;
 import java.time.Period;
